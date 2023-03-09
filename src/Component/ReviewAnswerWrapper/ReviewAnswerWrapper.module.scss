@@ -1,0 +1,130 @@
+.main_container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container1 {
+//    background-color: red;
+   width: 30%;
+//    border-right: 1px solid black;
+   height: 600px;
+   background: linear-gradient(314.24deg, #F8FAFF 22.53%, #EBF1F4 88.9%);
+   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.16);
+   border-radius: 16px;
+
+}
+.container2 {
+   width: 70%;
+   height: 600px;
+   background: linear-gradient(314.24deg, #F8FAFF 22.53%, #EBF1F4 88.9%);
+   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.16);
+   border-radius: 16px;
+}
+
+.style{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+
+}
+.heading_attempt_question{
+    display: flex;
+    justify-content:space-evenly ;
+    margin-top: 30px;
+    align-items: baseline;
+}
+.question{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 30px;
+}
+.question{
+    display: flex;
+    column-gap: 20px;
+    width: 85%;
+    padding: 30px;
+}
+.options{
+    display: flex;
+    column-gap: 20px;
+    width: 85%;
+    padding: 10px 30px;
+}
+.options_container{
+    width: 85%;
+    padding: 10px 20px;
+    height: 270px;
+    // float: right;
+}
+.option_inside{
+    display: flex;
+    padding: 10px;
+    column-gap: 20px;
+}
+.radio_button_style{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.submit_button{
+    width: 250px;
+    height: 40px;
+    background: #FFC700;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000000;
+}
+.prev_next_button{
+    width: 70px;
+    height: 40px;
+    background: #FFC700;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000000;
+}
+.prev_next_button_none{
+    width: 70px;
+    height: 40px;
+    background: grey;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.button_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading_text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 30px;
+}
+.heading_text_review_answer{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
